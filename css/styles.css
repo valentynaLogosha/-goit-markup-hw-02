@@ -1,2 +1,79 @@
-body { 
-background-color: coral;}
+.body {
+    font-family: 'Roboto', sans-serif;
+    color:E5E5E5;}
+.logo{
+font-family: 'Raleway'sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 0.75;
+}
+.address-list{
+font-size: 16px;
+line-height: 1.5;
+color: #434455}
+
+.solutions{
+color: NAVY BLUE;
+background-color:#2E2F42;
+
+}
+.solutions-text{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 4;
+    text-align: center;
+    color:rgba(255, 255, 255, 1); 
+}
+
+
+.button { cursor: pointer;
+color:rgba(77, 90, 229, 1);
+background: #4D5AE5;
+cursor:pointer;
+}
+.features-hidden{
+
+}
+.features-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    color: #2E2F42;
+}
+.features-text-list{
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+.examples-text{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+}
+.team {
+color:
+rgba(244, 244, 253, 1);
+background: #F4F4FD; 
+}
+.team-text{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.team-text-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+.team-description {
+font-size: 16px;
+line-height: 1.5px;
+color: #434455;
+
+}
+.footer{}

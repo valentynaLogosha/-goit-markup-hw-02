@@ -47,6 +47,7 @@
   color: NAVY BLUE rgba(46, 47, 66, 1);
 }
 .header-link {
+  font-style:normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -54,7 +55,7 @@
 }
 .header-link:hover,
 :focus {
-  color: var(--main-text-color);
+  color:rgba(151, 71, 255, 1) ;
 }
 .header-address-link {
   font-size: 16px;

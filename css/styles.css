@@ -78,7 +78,7 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.button {
+.btn {
   background: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
@@ -87,10 +87,10 @@
   align-items: center;
   color: #ffffff;
 }
-.button:hover {
+.btn:hover {
   background-color: rgba(0, 0, 0, 0.15);
 }
-.button:focus {
+.btn:focus {
   color: #ffffff;
 }
 

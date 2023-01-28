@@ -159,7 +159,31 @@
   background-color: rgba(0, 0, 0, 0.25);
 }
 .footer:focus {
- color: #ffffff ;
+  color: #ffffff;
 }
 /* Portfolio */
-.portfolio-list
+
+.portfolio-button {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-buttonn:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.portfolio-button:focus {
+  color: #ffffff;
+}
+.text-images-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.text-discription-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}

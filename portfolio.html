@@ -7,8 +7,9 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400;1,700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -21,7 +22,7 @@
         >
         <ul class="header-list list">
           <li class="header-item">
-            <a class="header-link link" href="">Studio</a>
+            <a class="header-link link" href="/">Studio</a>
           </li>
           <li class="header-item">
             <a class="header-link link" href="./portfolio.html">Portfolio</a>
@@ -50,13 +51,15 @@
       <section class="portfolio">
         <h1 class="visually-hidden" hidden>Portfolio</h1>
         <ul class="portfolio-list list">
-          <li class="button"><button type="button">All</button></li>
-          <li class="button">
-            <button type="button">Web Site</button>
+          <li>
+            <button class="button" type="button" class="filter-btn">All</button>
           </li>
-          <li class="button"><button type="button">App</button></li>
-          <li class="button">
-            <button type="button">Marketing</button>
+          <li>
+            <button class="button" type="portfolio-button">Web Site</button>
+          </li>
+          <li><button class="button" type="portfolio-button">App</button></li>
+          <li>
+            <button class="button" type="portfolio-button">Marketing</button>
           </li>
         </ul>
         <ul class="images list">
@@ -68,8 +71,8 @@
               height="300"
             />
             <h2 class="visually-hidden" hidden>Portfolio</h2>
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h3 class="text-images-portfolio">Banking App Interface Concept</h3>
+            <p class="text-discription-portfolio">App</p>
           </li>
           <li class="images-list">
             <img
@@ -78,8 +81,8 @@
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="text-images-portfolio">Cashless Payment</h3>
+            <p class="text-discription-portfolio">Marketing</p>
           </li>
           <li class="images-list">
             <img
@@ -88,15 +91,15 @@
               width="360"
               height="300"
             />
-            <h3>Meditaion App</h3>
-            <p>App</p>
+            <h3 class="text-images-portfolio">Meditaion App</h3>
+            <p class="text-discription-portfolio">App</p>
           </li>
         </ul>
         <ul class="list">
           <li class="images-list">
             <img src="./images/taxi.jpg" alt="Taxi" width="360" height="300" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="text-images-portfolio">Taxi Service</h3>
+            <p class="text-discription-portfolio">Marketing</p>
           </li>
           <li>
             <img
@@ -105,8 +108,8 @@
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="text-images-portfolio">Screen Illustrations</h3>
+            <p class="text-discription-portfolio">Design</p>
           </li>
           <li class="images-list">
             <img
@@ -115,8 +118,8 @@
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="text-images-portfolio">Online Courses</h3>
+            <p class="text-discription-portfolio">Marketing</p>
           </li>
           <li class="images-list">
             <img
@@ -125,8 +128,8 @@
               width="360"
               height="300"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h3 class="text-images-portfolio">Instagram Stories Concept</h3>
+            <p class="text-discription-portfolio">Design</p>
           </li>
           <li class="images-list">
             <img
@@ -135,8 +138,8 @@
               width="360"
               height="300"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h3 class="text-images-portfolio">Organic Food</h3>
+            <p class="text-discription-portfolio">Web Site</p>
           </li>
           <li class="images-list">
             <img
@@ -145,14 +148,16 @@
               width="360"
               height="300"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h3 class="text-images-portfolio">Fresh Coffee</h3>
+            <p class="text-discription-portfolio">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="footer-link" href="./index.html"> WebStudio </a>
+      <a class="header-navigation-logo link" href="./index.html">
+        <span class="web link">WEB</span>STUDIO</a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

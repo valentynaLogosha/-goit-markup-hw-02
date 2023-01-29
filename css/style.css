@@ -9,11 +9,11 @@
   --section-second-color: #f4f4fd;
   --footer-text-color: #e7e9fc;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--main-color);
-  background: var(--second-text-color);
+  background: var(--main-color);
 }
 
 /* Header */
@@ -50,6 +50,10 @@
   text-transform: uppercase;
   color: var(--main-text-color);
 }
+.header-link-adress:focus,
+.header-link-adress:hover {
+  color: var(--header-focus-hover-color);
+}
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
@@ -64,24 +68,13 @@
 .nav-link {
   color: var(--main-text-color);
 }
-.header-link:hover {
-  color: var(--header-focus-hover-color);
-}
-.header-link:focus {
-  color: var(--header-focus-hover-color);
-}
+
 .header-link-adress {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-link-color);
-}
-.header-link-adress:hover {
-  color: var(--header-focus-hover-color);
-}
-.header-link-adress:focus {
-  color: var(--header-focus-hover-color);
 }
 
 /* Section 2 */
@@ -99,21 +92,18 @@
 
 .btn {
   color: var(--main-color);
-  background: var(--header-focus-hover-color);
+  background: var(--logo-web-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5x;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: inherit;
 }
-.btn:hover {
+.btn:hover,
+:focus {
   color: var(--main-color);
-  background: var(--button--focus-hover-color);
-}
-.btn:focus {
-  color: var(--main-color);
-  background: var(--button--focus-hover-color);
+  background: var(--header-focus-hover-color);
 }
 
 /* Section 3 */
